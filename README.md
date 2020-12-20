@@ -29,6 +29,6 @@ and the user goes to the history page they are unable to go back. I had implemen
 first socket message. This value could not be achieved again, since due to the routing of routes, going back to the first message page no longer displays the time of the first 
 message of "hello!". Hence, I removed the back button as I found it redundant. 
 
-####Final Thoughts:
+##### Final Thoughts:
 If I were to do this again, I would do it using React with states and hooks to help transition between the pages as well as updating them correctly as new information gets sent
 using sockets. 
