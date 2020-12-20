@@ -1,0 +1,52 @@
+
+.main-wrapper {
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.maingui{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: stretch;*/
+    padding: 20px;
+    position: relative;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#history{
+    align-self:flex-end;
+}
+
+.messages {
+display: flex;
+justify-content: center;
+position: relative;
+}
+
+.messages h4{
+margin-top:3rem;
+}
+
+#historyList{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-evenly;
+     flex-direction: column;
+      width:100%;
+      align-items: center;
+}

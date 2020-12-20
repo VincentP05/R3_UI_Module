@@ -1,0 +1,15 @@
+{
+  "name": "r3_ui_training",
+  "version": "1.0.0",
+  "description": "R3 Robtoics UI and Web Design Training Package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vincent Phung",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  }
+}
